@@ -1,0 +1,63 @@
+#pendidikan > ul > li > a {
+    text-decoration: none;
+    color: white;
+    color: aqua;
+}
+
+#pendidikan > ul > li > a:hover {
+    color: blue;
+    color: white;
+}
+
+#pendidikan, #aktivitas, footer {
+    background-color: #0d6efd;
+    color: white;
+}
+
+#prestasi > ul > li > a {
+    text-decoration: none;
+    color: #0d6efd;
+}
+
+#prestasi > ul > li > a:hover {
+    color: black;
+}
+
+footer {
+    padding: 20px;
+}
+footer > a {
+    text-decoration: none;
+    color: white;
+}
+
+footer.top {
+    display: flex;
+    justify-content: space-around;
+    justify-content: space-evenly;
+}
+
+footer.top > .footer > p {
+    padding: 1px;
+    margin: 0px;
+}
+
+footer.top > .footer > p > a {
+    color: white;
+    text-decoration: none;
+}
+footer.top > .footer > p > a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+footer.top > .footer {
+    text-align: center;
+footer.top > div > img {
+    max-width: 100px;
+}
+
+footer.top > #logoFooter {
+    display: flex;
+    align-items: center;
+}

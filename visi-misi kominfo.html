@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visi dan Misi Kominfo</title>
+    <style>
+        body {
+            background-color: #f4f4f4; /* Warna latar belakang abu-abu muda */
+            font-family: Arial, sans-serif;
+            color: #333; /* Warna teks abu-abu gelap */
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1, h2 {
+            color: #0056b3; /* Warna teks biru tua */
+        }
+
+        #misi {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        #misi li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Visi dan Misi Kementerian Komunikasi dan Informatika</h1>
+
+    <h2>Visi:</h2>
+    <p id="visi">Menjadi penyelenggara komunikasi dan informatika yang unggul untuk kemajuan bangsa.</p>
+
+    <h2>Misi:</h2>
+    <ul id="misi">
+        <li>Mengembangkan infrastruktur telekomunikasi yang handal.</li>
+        <li>Menyelenggarakan pengelolaan spektrum frekuensi yang efisien.</li>
+        <li>Meningkatkan keamanan dan perlindungan data digital.</li>
+    </ul>
+    <script>
+        function setVisi(visi) {
+            document.getElementById('visi').innerText = visi;
+        }
+
+        function addMisi(misi) {
+            var misiList = document.getElementById('misi');
+            var listItem = document.createElement('li');
+            listItem.innerText = misi;
+            misiList.appendChild(listItem);
+        }
+
+        setVisi("Menjadi penyelenggara komunikasi dan informatika yang unggul untuk kemajuan bangsa.");
+        addMisi("Mengembangkan infrastruktur telekomunikasi yang handal.");
+        addMisi("Menyelenggarakan pengelolaan spektrum frekuensi yang efisien.");
+        addMisi("Meningkatkan keamanan dan perlindungan data digital.");
+    </script>
+
+</body>
+</html>   
